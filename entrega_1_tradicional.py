@@ -15,11 +15,7 @@ INICIAL = (
     (0, 1, 0, 0, 1, 0, 1, 1, 0, 0)
 )
 
-META = (
-    (0, 1, 2),
-    (3, 4, 5),
-    (6, 7, 8),
-)
+
 
 def resolver(metodo_busqueda, posicion_rey, controlar_estador_repetidos):
     return
