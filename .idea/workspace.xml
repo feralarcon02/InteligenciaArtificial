@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cea705d0-50b0-4a1f-be8b-ca66029bb314" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/explicaciones.txt" afterPath="$PROJECT_DIR$/explicaciones.txt" />
     </list>
     <ignored path="probar_entrega_1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/explicaciones.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+              <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -436,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1473909837083</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Terminado casi">
+      <created>1473909844536</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1473909844536</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -969,7 +977,7 @@
     <entry file="file://$PROJECT_DIR$/explicaciones.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
           <folding />
         </state>
       </provider>

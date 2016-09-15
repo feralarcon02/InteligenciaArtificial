@@ -1,3 +1,3 @@
-1:Cuando ejecutamos nos da "MemoryError"
-3:Cuando ejecutamos nos da "MemoryError"
-5:Cuando ejecutamos nos da "MemoryError"
+1:El proceso finaliza con un mensaje de "MemoryError" por falta de memoria.
+3:El proceso finaliza con un mensaje de "MemoryError" por falta de memoria.
+5:El proceso finaliza con un mensaje de "MemoryError" por falta de memoria.
