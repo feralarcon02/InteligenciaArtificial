@@ -135,7 +135,7 @@ class HnefataflProblem(SearchProblem):
 
         return state
 
-    def heuristico(self, state):
+    def heuristic(self, state):
         rey_fila, rey_columna = donde_esta(state, 2)
         rey_fila_otroLado = 9 - rey_fila
         rey_columna_otroLado = 9 - rey_columna
@@ -164,7 +164,7 @@ if __name__ == '__main__': #para que cunado lo importo no se mejecute.
     # # Caso 6
     #resultado = resolver('greedy', (5, 3), True)
     # # Caso 7
-    #resultado = resolver('astar', (5, 3), False) #No funciona con el BaseViewer
+    resultado = resolver('astar', (5, 3), False) #No funciona con el BaseViewer
     # # Caso 8
     #resultado = resolver('astar', (5, 3), True)
 
