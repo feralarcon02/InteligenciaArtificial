@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cea705d0-50b0-4a1f-be8b-ca66029bb314" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entrega_1_tradicional.py" afterPath="$PROJECT_DIR$/entrega_1_tradicional.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entrega_1_tradicional.txt" afterPath="$PROJECT_DIR$/entrega_1_tradicional.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/explicaciones.txt" afterPath="$PROJECT_DIR$/explicaciones.txt" />
     </list>
     <ignored path="probar_entrega_1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="entrega_1_tradicional.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="entrega_1_tradicional.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/entrega_1_tradicional.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -72,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="explicaciones.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="explicaciones.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/explicaciones.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="53" selection-start-line="0" selection-start-column="53" selection-end-line="0" selection-end-column="53" />
+            <state relative-caret-position="34">
+              <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -108,9 +107,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/probar_entrega_1.py" />
-        <option value="$PROJECT_DIR$/explicaciones.txt" />
         <option value="$PROJECT_DIR$/entrega_1_tradicional.py" />
         <option value="$PROJECT_DIR$/entrega_1_tradicional.txt" />
+        <option value="$PROJECT_DIR$/explicaciones.txt" />
       </list>
     </option>
   </component>
@@ -424,14 +423,21 @@
       <option name="project" value="LOCAL" />
       <updated>1473908683947</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Terminado casi">
+      <created>1473909237392</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1473909237392</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19106881" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19106881" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -936,14 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/explicaciones.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="53" selection-start-line="0" selection-start-column="53" selection-end-line="0" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/entrega_1_tradicional.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -958,6 +956,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explicaciones.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
           <folding />
         </state>
       </provider>

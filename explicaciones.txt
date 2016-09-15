@@ -1,1 +1,3 @@
-Los que no funcionan es por error de memoria siempre.
+1:Cuando ejecutamos nos da "MemoryError"
+3:Cuando ejecutamos nos da "MemoryError"
+5:Cuando ejecutamos nos da "MemoryError"
