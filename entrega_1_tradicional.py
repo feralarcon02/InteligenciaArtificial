@@ -75,7 +75,7 @@ class HnefataflProblem(SearchProblem):
         acciones = []
         fila_rey, col_rey = donde_esta(state, 2)
 
-        if fila_rey > 0 and fila_rey < 9 and col_rey > 0 and col_rey < 9:
+        if (fila_rey > 0) and (fila_rey < 9) and (col_rey > 0) and (col_rey < 9):
             cerca = 0
             if state[fila_rey - 1][col_rey] == 0: #si el lugar esta vacio, y podria moverme
                 if fila_rey - 1 != 0:           #si no esta en un borde
@@ -162,16 +162,16 @@ if __name__ == '__main__': #para que cunado lo importo no se mejecute.
     # # Caso 5
     #resultado = resolver('greedy', (5, 3), False)   #No funciona con el BaseViewer
     # # Caso 6
-    resultado = resolver('greedy', (5, 3), True)
+    #resultado = resolver('greedy', (5, 3), True)
     # # Caso 7
     #resultado = resolver('astar', (5, 3), False) #No funciona con el BaseViewer
     # # Caso 8
     #resultado = resolver('astar', (5, 3), True)
 
-    print 'Camino:'
-    for accion, estado in resultado.path():
-        print 'Movi', accion
-        print 'Llegue a', estado
+    # print 'Camino:'
+    # for accion, estado in resultado.path():
+    #     print 'Movi', accion
+    #     print 'Llegue a', estado
 
     print 'Cantidad de nodos visitados:', visor.stats['visited_nodes']
     print 'Profundidad: ', resultado.depth
