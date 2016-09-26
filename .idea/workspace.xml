@@ -462,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1473911651194</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Segunda parte">
+      <created>1474906333151</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1474906333151</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -524,7 +531,8 @@
     <MESSAGE value="Probando" />
     <MESSAGE value="Probando 2" />
     <MESSAGE value="Terminado casi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Terminado casi" />
+    <MESSAGE value="Segunda parte" />
+    <option name="LAST_COMMIT_MESSAGE" value="Segunda parte" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
