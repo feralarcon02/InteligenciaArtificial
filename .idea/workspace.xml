@@ -4,11 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/entrega_1_tradicional.py" line="106" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cea705d0-50b0-4a1f-be8b-ca66029bb314" name="Default" comment="Segunda parte">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/entrega_1_local.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/entrega_1_local.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/probar_entrega_1_local.py" />
+    <list default="true" id="cea705d0-50b0-4a1f-be8b-ca66029bb314" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entrega_1_local.py" afterPath="$PROJECT_DIR$/entrega_1_local.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entrega_1_local.txt" afterPath="$PROJECT_DIR$/entrega_1_local.txt" />
     </list>
     <ignored path="probar_entrega_1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,8 +65,8 @@
       <file leaf-file-name="entrega_1_local.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/entrega_1_local.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="622">
-              <caret line="137" column="23" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
+            <state relative-caret-position="2091">
+              <caret line="132" column="5" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
               <folding>
                 <element signature="e#0#140#0" expanded="true" />
               </folding>
@@ -78,8 +77,8 @@
       <file leaf-file-name="entrega_1_local.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/entrega_1_local.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -135,6 +134,7 @@
         <option value="$PROJECT_DIR$/entrega_1_tradicional.txt" />
         <option value="$PROJECT_DIR$/explicaciones.txt" />
         <option value="$PROJECT_DIR$/entrega_1_local.py" />
+        <option value="$PROJECT_DIR$/entrega_1_local.txt" />
       </list>
     </option>
   </component>
@@ -170,7 +170,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -191,6 +190,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -523,14 +523,21 @@
       <option name="project" value="LOCAL" />
       <updated>1474906432915</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="2do tp">
+      <created>1474909448615</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1474909448615</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19106881" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19106881" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -586,7 +593,8 @@
     <MESSAGE value="Probando 2" />
     <MESSAGE value="Terminado casi" />
     <MESSAGE value="Segunda parte" />
-    <option name="LAST_COMMIT_MESSAGE" value="Segunda parte" />
+    <MESSAGE value="2do tp" />
+    <option name="LAST_COMMIT_MESSAGE" value="2do tp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1044,16 +1052,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/entrega_1_local.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/entrega_1_local.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="137" column="23" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
+        <state relative-caret-position="2091">
+          <caret line="132" column="5" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
           <folding>
             <element signature="e#0#140#0" expanded="true" />
           </folding>
