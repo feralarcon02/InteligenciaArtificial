@@ -170,9 +170,9 @@ if __name__ == '__main__': #para que cunado lo importo no se mejecute.
     # print fila
 
     for i in range(10):
-        print 'Hora de inicio: ', datetime.datetime.now().time()
-        problem = resolver('beam',10,10)
-        print 'Hora de finalizacion: ', datetime.datetime.now().time()
+        print 'Hora de inicio: ', datetime.datetime.now().ctime()
+        problem = resolver('simulated_annealing',200)
+        print 'Hora de finalizacion: ', datetime.datetime.now().ctime()
         print 'Puntaje obtenido:', problem.value
         fila = ' _ _ _ _ _ _ _ _ _ _'
         for f in range(10):
