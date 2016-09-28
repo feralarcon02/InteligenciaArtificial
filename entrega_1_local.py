@@ -1,5 +1,4 @@
 from simpleai.search import SearchProblem, hill_climbing, hill_climbing_stochastic, beam, hill_climbing_random_restarts, simulated_annealing
-from simpleai.search.viewers import BaseViewer
 import random, datetime, itertools
 
 INICIAL = []
@@ -8,7 +7,6 @@ for fila in range(3):
         INICIAL.append((fila,columna))
 INICIAL = tuple(INICIAL)
 
-visor = BaseViewer()
 
 # def colocar_rey(Estado_Inicial, posicion):
 #     Estado_Inicial = t2l(Estado_Inicial)
@@ -118,62 +116,18 @@ class HnefataflProblem(SearchProblem):
 
 if __name__ == '__main__': #para que cunado lo importo no se mejecute.
 
-    print 'AI...'
-
-    # print 'Hora de inicio: ', datetime.datetime.now().time()
-    # problem = resolver('hill_climbing')
-    # print hill_climbing(HnefataflProblem(INICIAL), iterations_limit=5000).value
-
-    # for i in range(10):
-    #     problem = resolver('hill_climbing', 5000)
-    #     print 'Puntaje obtenido:', problem.value
-    #problem = resolver('hill_climbing', 500)
-    #problem = simulated_annealing(HnefataflProblem(INICIAL),iterations_limit=100)
-
-    #print 'Puntaje obtenido:', problem.value
-    # print 'Hora de finalizacion: ', datetime.datetime.now().time()
-
-    # print 'Hora de inicio: ', datetime.datetime.now().time()
-    # problem = resolver('hill_climbing', 20)
-    # print 'Hora de finalizacion: ', datetime.datetime.now().time()
-    # #Imprime los 3 y los 1 donde corresponde
-    # fila = ' _ _ _ _ _ _ _ _ _ _'
-    # for f in range(10):
-    #     print fila
-    #     fila = '|'
-    #     for c in range(10):
-    #         if (f, c) in problem.state:
-    #             fila = fila + 'X|'
-    #         else:
-    #             sumados = []
-    #             estado = list(problem.state)
-    #             for sold1, sold2 in itertools.combinations(estado, 2):  # Todas las combinaciones
-    #                 f1, c1 = sold1
-    #                 f2, c2 = sold2
-    #                 if (abs(f1 - f2) + abs(c1 - c2)) == 2:
-    #                     if ((f1 == f2) | (c1 == c2)):
-    #                         if f1 == f2:
-    #                             porSumar = ((f1, ((c1 + c2) / 2)))
-    #                         else:
-    #                             porSumar = ((((f1 + f2) / 2), c2))
-    #                     else:
-    #                         porSumar = (f1, c2)
-    #                         porSumar2 = (f2, c1)
-    #                         if porSumar2 not in sumados and porSumar2 not in estado:
-    #                             sumados.append(porSumar2)
-    #                     if porSumar not in sumados and porSumar not in estado:
-    #                         sumados.append(porSumar)
-    #             if (f,c) in sumados:
-    #                 fila = fila +str(CuantoSuma((f,c)))+'|'
-    #             else:
-    #                 fila = fila + '_|'
-    # print fila
-
+    print '\n'
+    print chr(27) + "[1;0m" + 'Inteligencia Artificial' + chr(27) + "[0m"
+    Mayor = 0
     for i in range(10):
-        print 'Hora de inicio: ', datetime.datetime.now().ctime()
-        problem = resolver('simulated_annealing',200)
-        print 'Hora de finalizacion: ', datetime.datetime.now().ctime()
-        print 'Puntaje obtenido:', problem.value
+        print '\n'
+        print chr(27) + "[1;0m" + 'Prueba' + chr(27) + "[0m", i + 1
+        print 'Hora de inicio: ', datetime.datetime.now().time()
+        inicio = datetime.datetime.now()
+        problem = resolver('hill_climbing', 200)
+        puntaje = problem.value
+        print 'Puntaje obtenido:', chr(27) + "[1;42m", puntaje, chr(27) + "[0m"
+        print 'Hora de finalizacion: ', datetime.datetime.now().time()
         fila = ' _ _ _ _ _ _ _ _ _ _'
         for f in range(10):
             print fila
@@ -183,50 +137,11 @@ if __name__ == '__main__': #para que cunado lo importo no se mejecute.
                     fila = fila + 'X|'
                 else:
                     fila = fila + '_|'
-
-
-    # print 'Inteligencia Artificial'
-    #
-    # # problem = resolver('hill_climbing')
-    # # print hill_climbing(HnefataflProblem(INICIAL), iterations_limit=5000).value
-    #
-    # for i in range(10):
-    #     print '\n'
-    #     print 'Prueba', i + 1
-    #     print 'Hora de inicio: ', datetime.datetime.now().time()
-    #     problem = resolver('hill_climbing',20)
-    #     print 'Puntaje obtenido:', problem.value
-    #     print 'Hora de finalizacion: ', datetime.datetime.now().time()
-    #     sumados = []
-    #     estado = list(problem.state)
-    #     for sold1, sold2 in itertools.combinations(problem.state, 2):  # Todas las combinaciones
-    #         f1, c1 = sold1
-    #         f2, c2 = sold2
-    #         if (abs(f1 - f2) + abs(c1 - c2)) == 2:
-    #             if ((f1 == f2) | (c1 == c2)):
-    #                 if f1 == f2:
-    #                     porSumar = ((f1, ((c1 + c2) / 2)))
-    #                 else:
-    #                     porSumar = ((((f1 + f2) / 2), c2))
-    #             else:
-    #                 porSumar = (f1, c2)
-    #                 porSumar2 = (f2, c1)
-    #                 if porSumar2 not in sumados and porSumar2 not in estado:
-    #                     sumados.append(porSumar2)
-    #             if porSumar not in sumados and porSumar not in estado:
-    #                 sumados.append(porSumar)
-    #     fila = ' _ _ _ _ _ _ _ _ _ _'
-    #     for f in range(10):
-    #         print fila
-    #         fila = '|'
-    #         for c in range(10):
-    #             if (f,c) in problem.state:
-    #                 fila = fila + 'X|'
-    #             else:
-    #                 if (f,c) in sumados:
-    #                     if (f == 0) or (c == 0) or (f == 9) or (c == 9):
-    #                         fila = fila + '3|'
-    #                     else:
-    #                         fila = fila + '1|'
-    #                 else:
-    #                     fila = fila + '_|'
+        fin = datetime.datetime.now()
+        tiempo = fin - inicio
+        print '\n'
+        print chr(27) + "[4;0m" + 'Tiempo de procesamiento:' + chr(27) + "[0m", tiempo
+        if puntaje > Mayor:
+            Mayor = puntaje
+    print '\n'
+    print chr(27) + "[1;103m" + "La maxima puntuacion es: " + chr(27) + "[0m", Mayor
