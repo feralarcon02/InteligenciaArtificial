@@ -137,6 +137,7 @@ if __name__ == '__main__': #para que cunado lo importo no se mejecute.
                     fila = fila + 'X|'
                 else:
                     fila = fila + '_|'
+        print fila
         fin = datetime.datetime.now()
         tiempo = fin - inicio
         print '\n'
